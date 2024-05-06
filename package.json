@@ -1,0 +1,17 @@
+{
+  "name": "hees-sci",
+  "version": "1.0.0",
+  "description": "this is for play with physics & technology",
+  "main": "learner",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "sathya-narayanan-r",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "pg": "^8.11.5",
+    "sass": "^1.76.0",
+    "sequelize": "^6.37.3"
+  }
+}
