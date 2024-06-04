@@ -1,0 +1,49 @@
+.product-list-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    justify-content: center;
+    width: 95%;
+
+    .product-card{
+        border: 1px solid grey;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        justify-self: flex-start;
+        align-items: center;
+        width: 25vw;
+        height: 30vh;
+        
+        img{
+            width: 100%;
+            height: 18vh;
+            border: inset 1px grey;
+        }
+        .product-details{
+            text-align: center;
+            padding: 5px;
+            width: 100%;
+            height: 13vh;
+
+        }
+    }
+}
+
+.sub-course{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 1% auto;
+
+    .product-list-container-outer{
+        width: 100;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+}

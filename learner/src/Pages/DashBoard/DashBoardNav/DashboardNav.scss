@@ -1,0 +1,46 @@
+.db-nav{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+    height: 100%;
+
+    .db-nav-list{
+        ul{
+            list-style: none;
+            display: flex;
+            flex-flow: column nowrap;
+            align-items: baseline;
+            gap: 4px;
+            margin-top: 3rem;
+
+            li{
+                display: flex;
+                flex-flow: row nowrap;
+                align-items: center;
+                gap: 10px;
+                width: 23vw;
+                height: 4rem;
+                object-fit: contain;
+
+                a{
+                    text-decoration: none;
+                    font-size: 1.4rem;
+                    font-weight: 700;
+                    color: black;
+                    box-shadow: 1px 1px 1px 1px rgb(240, 239, 239), 1px 1px 1px 1px rgb(231, 231, 231), 1px 1px 1px 1px rgb(231, 230, 230), 1px 1px 1px 1px rgb(231, 231, 231);
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    padding-left: 3rem;
+                    align-items: center;
+                }
+                a:hover{
+                    background-color: rgb(223, 207, 207);
+                }
+            }
+        }
+    }
+
+}

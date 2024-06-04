@@ -1,0 +1,16 @@
+.course-details-container{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    border: 1px solid grey;
+    width: 100%;
+    height: 100vh;
+
+    .details-course{
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+}

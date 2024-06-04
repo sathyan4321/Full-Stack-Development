@@ -1,0 +1,10 @@
+.Upcoming-container{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 50vw;
+    height: 15vh;
+    box-shadow: 1px 1px 1px 1px black, 1px 1px 1px 1px black, 1px 1px 1px 1px black, 1px 1px 1px 1px black;
+    margin: 2rem;
+}
